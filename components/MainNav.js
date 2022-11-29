@@ -114,7 +114,7 @@ export default function MainNav() {
                 </Link>
 
                 <NavDropdown.Item
-                  active={router.pathname === "/history"}
+                  active={router.pathname === "/logout"}
                   onClick={logout}
                 >
                   Logout
